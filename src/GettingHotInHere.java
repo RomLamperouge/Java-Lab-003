@@ -10,5 +10,8 @@ public class GettingHotInHere {
         Scanner scanner = new Scanner(System.in);
         System.out.print("What is the temperature in °F: ");
         int number = scanner.nextInt();
-    }
+           int F = 50;
+          int C = (F-32)*5/9;
+            System.out.println(C);
+        }
 }

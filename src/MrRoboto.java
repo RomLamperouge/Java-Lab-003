@@ -1,5 +1,9 @@
 // Import the Scanner tool used for reading (All external packages/libraries/apis are imported similarly this)
+import java.io.InputStreamReader;
+import java.io.Reader;
 import java.util.Scanner;
+import java.util.regex.Pattern;
+import java.util.stream.Stream;
 
 public class MrRoboto {
     /**
@@ -15,5 +19,12 @@ public class MrRoboto {
 
         System.out.print("My name is Mr. Roboto, are you Kilroy? ");
         // Write your program here
+        System.out.println("Type something");
+        String message = scanner.nextLine();
+        System.out.println(domo + message);
+
+
+
+
     }
 }
